@@ -1,3 +1,6 @@
+[![Build Status](https://travis-ci.org/astronati/php-world-cups-data-response-parser.svg?branch=master)](https://travis-ci.org/astronati/php-world-cups-data-response-parser)
+[![Codacy Badge](https://api.codacy.com/project/badge/Grade/b58fe33c44264d56946fb12331100a6e)](https://www.codacy.com/app/astronati/php-world-cups-data-response-parser?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=astronati/php-world-cups-data-response-parser&amp;utm_campaign=Badge_Grade)
+[![Latest Stable Version](https://poser.pugx.org/astronati/world-cups-data-response-parser/v/stable)](https://packagist.org/packages/astronati/world-cups-data-response-parser)
 [![License](https://poser.pugx.org/astronati/world-cups-data-response-parser/license)](https://packagist.org/packages/astronati/world-cups-data-response-parser)
 
 # World Cups Data Response Parser (Stoccoli)
