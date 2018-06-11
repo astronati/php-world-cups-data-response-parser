@@ -3,7 +3,7 @@
   "description": "Allows to map responses provided by the World Cups Data Data API (stroccoli).",
   "type": "library",
   "license": "MIT",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "authors": [
     {
       "name": "Andrea Stronati",
@@ -18,7 +18,8 @@
     "phpstan/phpstan": "^0.9.1"
   },
   "require": {
-    "php": ">=7.1.0"
+    "php": ">=7.1.0",
+    "astronati/world-cups-data-response-parser": "^1.0"
   },
   "autoload": {
     "psr-4": {
