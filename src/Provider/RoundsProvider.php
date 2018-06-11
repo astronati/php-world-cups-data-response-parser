@@ -25,7 +25,7 @@ class RoundsProvider
     {
         $rounds = [];
         foreach ($apiResponse as $data) {
-            $round = new RoundModel($this->roundFinder->findRoundNumber($data['num_match']), $data['start_time']);
+            $round = new RoundModel($this->roundFinder->findRoundNumber($data['num_match']), str_replace('.000Z', '+00:00', $data['start_time']));
             if ($this->roundFinder->findByNumber($round->getNumber(), $rounds) === null) {
                 $rounds[] = $round;
             }

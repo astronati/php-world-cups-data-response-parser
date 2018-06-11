@@ -17,7 +17,7 @@ class ResponseParserTest extends TestCase
               ['num_match' => 17, 'start_time' => '2018-07-17T16:00:00.000Z', 'home_team' => ['name' => ['full' => 'Germany']], 'visitant_team' => ['name' => ['full' => 'Colombia']]],
             ],
             'Brazil',
-            '2018-06-17T17:00:00.000Z'
+            '2018-06-17T17:00:00+00:00'
           ],
         ];
     }
